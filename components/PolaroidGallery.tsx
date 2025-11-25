@@ -1,11 +1,11 @@
 import React from 'react';
 import { Memory } from '../types';
 
-// Using absolute paths to ensure the browser finds the files in the components directory
-const bestdayImg = '/components/bestday.jpg';
-const coffeeImg = '/components/coffee.jpg';
-const oldusImg = '/components/oldus.jpg';
-const usImg = '/components/us.jpg';
+// Import images directly so Vite includes them in the build and resolves correct URLs
+import bestdayImg from './bestday.jpg';
+import coffeeImg from './coffee.jpg';
+import oldusImg from './oldus.jpg';
+import usImg from './us.jpg';
 
 const MEMORIES: Memory[] = [
   { id: 1, imageUrl: bestdayImg, caption: 'Best day ever!', rotation: -3 },
