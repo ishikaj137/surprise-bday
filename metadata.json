@@ -1,0 +1,7 @@
+{
+  "name": "Mitaashi's Birthday",
+  "description": "A cute, interactive aesthetic birthday wish website with blowing candles, memories, and secret messages.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
